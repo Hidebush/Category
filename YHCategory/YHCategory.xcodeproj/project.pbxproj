@@ -18,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		844C3C511DDAC496008789B6 /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
 		84E0B1951DD9AA3600F7F782 /* YHCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E0B1991DD9AA3600F7F782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84E0B19B1DD9AA3600F7F782 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -69,6 +70,7 @@
 				84E0B19C1DD9AA3600F7F782 /* AppDelegate.m */,
 				84E0B19E1DD9AA3600F7F782 /* ViewController.h */,
 				84E0B19F1DD9AA3600F7F782 /* ViewController.m */,
+				844C3C511DDAC496008789B6 /* define.h */,
 				84E0B1A11DD9AA3600F7F782 /* Main.storyboard */,
 				84E0B1A41DD9AA3600F7F782 /* Assets.xcassets */,
 				84E0B1A61DD9AA3600F7F782 /* LaunchScreen.storyboard */,
@@ -327,6 +329,7 @@
 				84E0B1AE1DD9AA3600F7F782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
