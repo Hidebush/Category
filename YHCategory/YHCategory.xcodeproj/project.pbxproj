@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		845D9A731DDB002000320FB4 /* UIView+GYH.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D9A721DDB002000320FB4 /* UIView+GYH.m */; };
 		845D9A761DDB026500320FB4 /* YHTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D9A751DDB026500320FB4 /* YHTextView.m */; };
+		845D9A791DDB07B000320FB4 /* UIImageView+GYH.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D9A781DDB07B000320FB4 /* UIImageView+GYH.m */; };
+		845D9A7C1DDB097B00320FB4 /* ShowImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D9A7B1DDB097B00320FB4 /* ShowImageBrowser.m */; };
 		84E0B19A1DD9AA3600F7F782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0B1991DD9AA3600F7F782 /* main.m */; };
 		84E0B19D1DD9AA3600F7F782 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0B19C1DD9AA3600F7F782 /* AppDelegate.m */; };
 		84E0B1A01DD9AA3600F7F782 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0B19F1DD9AA3600F7F782 /* ViewController.m */; };
@@ -25,6 +27,10 @@
 		845D9A721DDB002000320FB4 /* UIView+GYH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GYH.m"; sourceTree = "<group>"; };
 		845D9A741DDB026500320FB4 /* YHTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTextView.h; sourceTree = "<group>"; };
 		845D9A751DDB026500320FB4 /* YHTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTextView.m; sourceTree = "<group>"; };
+		845D9A771DDB07B000320FB4 /* UIImageView+GYH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GYH.h"; sourceTree = "<group>"; };
+		845D9A781DDB07B000320FB4 /* UIImageView+GYH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GYH.m"; sourceTree = "<group>"; };
+		845D9A7A1DDB097B00320FB4 /* ShowImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImageBrowser.h; sourceTree = "<group>"; };
+		845D9A7B1DDB097B00320FB4 /* ShowImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImageBrowser.m; sourceTree = "<group>"; };
 		84E0B1951DD9AA3600F7F782 /* YHCategory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHCategory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E0B1991DD9AA3600F7F782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84E0B19B1DD9AA3600F7F782 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,8 +109,12 @@
 				84E0B1B41DD9ABFA00F7F782 /* UIBarButtonItem+GYH.m */,
 				845D9A711DDB002000320FB4 /* UIView+GYH.h */,
 				845D9A721DDB002000320FB4 /* UIView+GYH.m */,
+				845D9A771DDB07B000320FB4 /* UIImageView+GYH.h */,
+				845D9A781DDB07B000320FB4 /* UIImageView+GYH.m */,
 				845D9A741DDB026500320FB4 /* YHTextView.h */,
 				845D9A751DDB026500320FB4 /* YHTextView.m */,
+				845D9A7A1DDB097B00320FB4 /* ShowImageBrowser.h */,
+				845D9A7B1DDB097B00320FB4 /* ShowImageBrowser.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -182,7 +192,9 @@
 			files = (
 				84E0B1B21DD9AA6000F7F782 /* NSObject+GYH.m in Sources */,
 				84E0B1B51DD9ABFA00F7F782 /* UIBarButtonItem+GYH.m in Sources */,
+				845D9A7C1DDB097B00320FB4 /* ShowImageBrowser.m in Sources */,
 				84E0B1A01DD9AA3600F7F782 /* ViewController.m in Sources */,
+				845D9A791DDB07B000320FB4 /* UIImageView+GYH.m in Sources */,
 				845D9A731DDB002000320FB4 /* UIView+GYH.m in Sources */,
 				84E0B19D1DD9AA3600F7F782 /* AppDelegate.m in Sources */,
 				845D9A761DDB026500320FB4 /* YHTextView.m in Sources */,
