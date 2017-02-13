@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8435E8E91E515BE800A7A050 /* UIViewController+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8435E8E81E515BE800A7A050 /* UIViewController+Animation.m */; };
 		845D9A731DDB002000320FB4 /* UIView+GYH.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D9A721DDB002000320FB4 /* UIView+GYH.m */; };
 		845D9A761DDB026500320FB4 /* YHTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D9A751DDB026500320FB4 /* YHTextView.m */; };
 		845D9A791DDB07B000320FB4 /* UIImageView+GYH.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D9A781DDB07B000320FB4 /* UIImageView+GYH.m */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8435E8E71E515BE800A7A050 /* UIViewController+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Animation.h"; sourceTree = "<group>"; };
+		8435E8E81E515BE800A7A050 /* UIViewController+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Animation.m"; sourceTree = "<group>"; };
 		844C3C511DDAC496008789B6 /* define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
 		845D9A711DDB002000320FB4 /* UIView+GYH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GYH.h"; sourceTree = "<group>"; };
 		845D9A721DDB002000320FB4 /* UIView+GYH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GYH.m"; sourceTree = "<group>"; };
@@ -123,6 +126,8 @@
 				84CE01031DDEA0260000C493 /* UIImage+GYH.m */,
 				84CFD0491DFBD41E009D4208 /* NSDictionary+GYH.h */,
 				84CFD04A1DFBD41E009D4208 /* NSDictionary+GYH.m */,
+				8435E8E71E515BE800A7A050 /* UIViewController+Animation.h */,
+				8435E8E81E515BE800A7A050 /* UIViewController+Animation.m */,
 				845D9A7A1DDB097B00320FB4 /* ShowImageBrowser.h */,
 				845D9A7B1DDB097B00320FB4 /* ShowImageBrowser.m */,
 			);
@@ -211,6 +216,7 @@
 				84E0B19D1DD9AA3600F7F782 /* AppDelegate.m in Sources */,
 				845D9A761DDB026500320FB4 /* YHTextView.m in Sources */,
 				84E0B19A1DD9AA3600F7F782 /* main.m in Sources */,
+				8435E8E91E515BE800A7A050 /* UIViewController+Animation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
