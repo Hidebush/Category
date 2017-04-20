@@ -98,4 +98,12 @@
     }];
 }
 
+- (UIImage *)snapshotWithBound:(CGRect)bounds {
+    UIGraphicsBeginImageContextWithOptions(bounds.size, YES, 0);
+    [self drawViewHierarchyInRect:bounds afterScreenUpdates:YES];
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    return image;
+}
+
 @end

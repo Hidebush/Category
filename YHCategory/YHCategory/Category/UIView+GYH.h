@@ -19,8 +19,13 @@
 @property (nonatomic, assign) CGFloat centerY;
 
 /**
- 抖动 view
+ *  @brief 抖动 view
  */
 - (void)shake;
+
+/**
+ *  @brief 截屏
+ */
+- (UIImage *)snapshotWithBound:(CGRect)bounds;
 
 @end

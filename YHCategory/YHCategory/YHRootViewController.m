@@ -7,6 +7,7 @@
 //
 
 #import "YHRootViewController.h"
+#import "NSString+GYH.h"
 
 #import "UIViewController+Animation.h"
 
@@ -23,6 +24,9 @@ static NSString * const identifier = @"cell";
     [super viewDidLoad];
     
     self.title = @"YHCategory";
+    
+    NSLog(@"你好---%lu",(unsigned long)[@"你好" getCharacterCount]);
+    NSLog(@"nihao---%lu",(unsigned long)[@"nihao" getCharacterCount]);
 }
 
 - (void)didReceiveMemoryWarning {
