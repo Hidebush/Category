@@ -101,7 +101,7 @@ typedef NS_ENUM(NSInteger, AnimationType) {
  *  @param animationType    动画类型枚举值
  *  @param subtype 动画子类型(动画的更详细效果)
  */
-- (void) transitionWithEnumType:(AnimationType) animationType WithSubtype:(NSString *) subtype;
+- (void)transitionWithEnumType:(AnimationType)animationType WithSubtype:(NSString *)subtype;
 
 
 /**
@@ -111,7 +111,7 @@ typedef NS_ENUM(NSInteger, AnimationType) {
  *  @param subtype 动画子类型(动画的更详细效果)
  *  @param view    视图
  */
-- (void) transitionWithType:(NSString *) type WithSubtype:(NSString *) subtype ForView : (UIView *) view;
+- (void)transitionWithType:(NSString *)type WithSubtype:(NSString *) subtype ForView : (UIView *)view;
 
 
 

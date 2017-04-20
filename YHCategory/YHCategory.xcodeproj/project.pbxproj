@@ -12,11 +12,12 @@
 		845D9A761DDB026500320FB4 /* YHTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D9A751DDB026500320FB4 /* YHTextView.m */; };
 		845D9A791DDB07B000320FB4 /* UIImageView+GYH.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D9A781DDB07B000320FB4 /* UIImageView+GYH.m */; };
 		845D9A7C1DDB097B00320FB4 /* ShowImageBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 845D9A7B1DDB097B00320FB4 /* ShowImageBrowser.m */; };
+		84CBAD9D1EA859B10023086A /* YHRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CBAD9C1EA859B10023086A /* YHRootViewController.m */; };
+		84CBADA01EA862030023086A /* YHAnimalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CBAD9F1EA862030023086A /* YHAnimalViewController.m */; };
 		84CE01041DDEA0260000C493 /* UIImage+GYH.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CE01031DDEA0260000C493 /* UIImage+GYH.m */; };
 		84CFD04B1DFBD41E009D4208 /* NSDictionary+GYH.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CFD04A1DFBD41E009D4208 /* NSDictionary+GYH.m */; };
 		84E0B19A1DD9AA3600F7F782 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0B1991DD9AA3600F7F782 /* main.m */; };
 		84E0B19D1DD9AA3600F7F782 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0B19C1DD9AA3600F7F782 /* AppDelegate.m */; };
-		84E0B1A01DD9AA3600F7F782 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E0B19F1DD9AA3600F7F782 /* ViewController.m */; };
 		84E0B1A31DD9AA3600F7F782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E0B1A11DD9AA3600F7F782 /* Main.storyboard */; };
 		84E0B1A51DD9AA3600F7F782 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E0B1A41DD9AA3600F7F782 /* Assets.xcassets */; };
 		84E0B1A81DD9AA3600F7F782 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E0B1A61DD9AA3600F7F782 /* LaunchScreen.storyboard */; };
@@ -36,6 +37,10 @@
 		845D9A781DDB07B000320FB4 /* UIImageView+GYH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GYH.m"; sourceTree = "<group>"; };
 		845D9A7A1DDB097B00320FB4 /* ShowImageBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowImageBrowser.h; sourceTree = "<group>"; };
 		845D9A7B1DDB097B00320FB4 /* ShowImageBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowImageBrowser.m; sourceTree = "<group>"; };
+		84CBAD9B1EA859B10023086A /* YHRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHRootViewController.h; sourceTree = "<group>"; };
+		84CBAD9C1EA859B10023086A /* YHRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHRootViewController.m; sourceTree = "<group>"; };
+		84CBAD9E1EA862030023086A /* YHAnimalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHAnimalViewController.h; sourceTree = "<group>"; };
+		84CBAD9F1EA862030023086A /* YHAnimalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHAnimalViewController.m; sourceTree = "<group>"; };
 		84CE01021DDEA0260000C493 /* UIImage+GYH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+GYH.h"; sourceTree = "<group>"; };
 		84CE01031DDEA0260000C493 /* UIImage+GYH.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GYH.m"; sourceTree = "<group>"; };
 		84CFD0491DFBD41E009D4208 /* NSDictionary+GYH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+GYH.h"; sourceTree = "<group>"; };
@@ -44,8 +49,6 @@
 		84E0B1991DD9AA3600F7F782 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84E0B19B1DD9AA3600F7F782 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84E0B19C1DD9AA3600F7F782 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84E0B19E1DD9AA3600F7F782 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84E0B19F1DD9AA3600F7F782 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84E0B1A21DD9AA3600F7F782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84E0B1A41DD9AA3600F7F782 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E0B1A71DD9AA3600F7F782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -89,8 +92,10 @@
 				84E0B1AF1DD9AA5000F7F782 /* Category */,
 				84E0B19B1DD9AA3600F7F782 /* AppDelegate.h */,
 				84E0B19C1DD9AA3600F7F782 /* AppDelegate.m */,
-				84E0B19E1DD9AA3600F7F782 /* ViewController.h */,
-				84E0B19F1DD9AA3600F7F782 /* ViewController.m */,
+				84CBAD9B1EA859B10023086A /* YHRootViewController.h */,
+				84CBAD9C1EA859B10023086A /* YHRootViewController.m */,
+				84CBAD9E1EA862030023086A /* YHAnimalViewController.h */,
+				84CBAD9F1EA862030023086A /* YHAnimalViewController.m */,
 				844C3C511DDAC496008789B6 /* define.h */,
 				84E0B1A11DD9AA3600F7F782 /* Main.storyboard */,
 				84E0B1A41DD9AA3600F7F782 /* Assets.xcassets */,
@@ -206,14 +211,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E0B1B21DD9AA6000F7F782 /* NSObject+GYH.m in Sources */,
+				84CBAD9D1EA859B10023086A /* YHRootViewController.m in Sources */,
 				84E0B1B51DD9ABFA00F7F782 /* UIBarButtonItem+GYH.m in Sources */,
 				845D9A7C1DDB097B00320FB4 /* ShowImageBrowser.m in Sources */,
-				84E0B1A01DD9AA3600F7F782 /* ViewController.m in Sources */,
 				845D9A791DDB07B000320FB4 /* UIImageView+GYH.m in Sources */,
 				845D9A731DDB002000320FB4 /* UIView+GYH.m in Sources */,
 				84CE01041DDEA0260000C493 /* UIImage+GYH.m in Sources */,
 				84CFD04B1DFBD41E009D4208 /* NSDictionary+GYH.m in Sources */,
 				84E0B19D1DD9AA3600F7F782 /* AppDelegate.m in Sources */,
+				84CBADA01EA862030023086A /* YHAnimalViewController.m in Sources */,
 				845D9A761DDB026500320FB4 /* YHTextView.m in Sources */,
 				84E0B19A1DD9AA3600F7F782 /* main.m in Sources */,
 				8435E8E91E515BE800A7A050 /* UIViewController+Animation.m in Sources */,

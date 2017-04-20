@@ -129,7 +129,7 @@
 
 #pragma mark - //////////////////////PushAnimation///////////////////////////
 
-- (void) transitionWithEnumType:(AnimationType) animationType WithSubtype:(NSString *) subtype{
+- (void)transitionWithEnumType:(AnimationType)animationType WithSubtype:(NSString *)subtype{
     
     //创建CATransition对象
     CATransition *animation = [CATransition animation];
@@ -216,7 +216,7 @@
 }
 
 #pragma mark - CATransition动画实现
-- (void) transitionWithType:(NSString *) type WithSubtype:(NSString *) subtype ForView : (UIView *) view
+- (void)transitionWithType:(NSString *)type WithSubtype:(NSString *) subtype ForView :(UIView *) view
 {
     //创建CATransition对象
     CATransition *animation = [CATransition animation];
